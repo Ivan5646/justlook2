@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/blocks/header.css">
+  <link rel="stylesheet" href="styles/blocks/main.css">
 </head>	
 
 <body>
@@ -23,7 +24,17 @@
   </div>
 </header>
 <section class="main">
-  main section
+  <div class="container">
+    <form action="" class="main__form">
+      <h4>Вывести средства</h4>
+      <select>
+        <option value="yandexTaxometr">Яндекс.Таксометр</option>
+        <option value="RBT">РБТ</option>
+      </select>
+      <input type="text" placeholder="Сумма, рублей">
+      <button>Вывести средства</button>
+    </form>
+  </div>
 </section>
 <footer class="footer">
   footer
