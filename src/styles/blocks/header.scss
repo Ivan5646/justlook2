@@ -1,6 +1,7 @@
 .header {
   background-color: #222222;
   height: 114px;
+  font-size: 18px;
   ul {
     display: flex;
     justify-content: center;
@@ -18,16 +19,21 @@
     }
     .header__company {
       font-family: 'RobotoBold', sans-serif;
+      font-size: 20px;
       a {
         display: inline-block;
         width: inherit;
-        background-image: url("../../img/checkers.svg");
+        background-image: url("../../img/checkers.svg"); 
         background-repeat: no-repeat;
+        background-position: 0 5px;
         padding-left: 60px;
       }
     }
     li:nth-child(2){
       margin-left: auto;
+    }
+    li.active a {
+      color: #f4c116;
     }
     li.active::after {
       content: " ";
