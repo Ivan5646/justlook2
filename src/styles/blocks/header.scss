@@ -1,10 +1,25 @@
 .header {
   background-color: #222222;
+  height: 114px;
   ul {
     display: flex;
-    
-    a {
-      color: white;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+
+    li {
+      list-style-type: none;
+      margin-right: auto;
+
+      a {
+        color: white;
+      }
+    }
+    .header__company {
+      font-family: 'RobotoBold', sans-serif;
+    }
+    li:nth-child(2){
+      margin-left: auto;
     }
   }
 }

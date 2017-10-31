@@ -1,1 +1,1 @@
-.header{background-color:#222}.header ul{display:-webkit-box;display:-ms-flexbox;display:flex}.header ul a{color:white}
+.header{background-color:#222;height:114px}.header ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:114px}.header ul li{list-style-type:none;margin-right:auto}.header ul li a{color:white}.header ul .header__company{font-family:'RobotoBold',sans-serif}.header ul li:nth-child(2){margin-left:auto}
