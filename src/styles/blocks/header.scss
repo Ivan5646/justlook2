@@ -13,10 +13,9 @@
   font-size: 18px;
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 114px;
-
     li {
       position: relative;
       list-style-type: none;
@@ -42,6 +41,7 @@
       margin-left: auto;
     }
     li:last-child {
+      margin-right: 0;
       a {
         color: #838383;
       }
