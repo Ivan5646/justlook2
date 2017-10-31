@@ -34,6 +34,12 @@
       background: url("../../img/selectArrow.svg") no-repeat right;
       -webkit-appearance: none;
       background-position-x: 196px;
+      option {
+        height: 45px;
+      }
+      option:first-child {
+        background-color: #e4e4e4;
+      }
     }
     input {
       margin-right: 4%;
