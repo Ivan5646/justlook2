@@ -18,6 +18,13 @@
     }
     .header__company {
       font-family: 'RobotoBold', sans-serif;
+      a {
+        display: inline-block;
+        width: inherit;
+        background-image: url("../../img/checkers.svg");
+        background-repeat: no-repeat;
+        padding-left: 60px;
+      }
     }
     li:nth-child(2){
       margin-left: auto;
