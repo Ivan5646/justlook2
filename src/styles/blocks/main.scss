@@ -24,10 +24,12 @@
     }
     h4 {
       width: 82%;
+      font-size: 16px;
     }
     select, input, button {
       height: 45px;
       width: 24%;
+      font-size: 16px;
     }
     select {
       margin-right: 4%;
@@ -57,6 +59,26 @@
       border: 1px solid #f4c116;
       text-align: center;
       cursor: pointer;
+    }
+  }
+  .main__details {
+    background-color: #f7f7f7;
+    height: 228px;
+    .main__details-wrapper {
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      h4 {
+        width: 82%;
+      }
+      > div {
+        width: 24%;
+      }
     }
   }
 }
