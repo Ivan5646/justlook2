@@ -11,6 +11,8 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
+      z-index: 1;
+      background-color: #ffffff;
       left: -43px;
       width: 74px;
       height: 74px;
@@ -36,17 +38,25 @@
       background-position-x: 196px;
       option {
         height: 45px;
-      }
-      option:first-child {
-        background-color: #e4e4e4;
+        &:first-child {
+          background-color: #e4e4e4;
+        }
       }
     }
+    // select.main__selectTaxi option:hover { 
+    //   // background-color: red;
+    //   // box-shadow: 0 0 10px 100px #1882A8 inset;
+    //   // background: red !important;
+    // }
     input {
       margin-right: 4%;
       padding-left: 2%;
     }
     button {
-
+      background-color: #ffffff;
+      border: 1px solid #f4c116;
+      text-align: center;
+      cursor: pointer;
     }
   }
 }
