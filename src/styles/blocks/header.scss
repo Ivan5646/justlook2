@@ -8,6 +8,7 @@
     height: 114px;
 
     li {
+      position: relative;
       list-style-type: none;
       margin-right: auto;
 
@@ -20,6 +21,14 @@
     }
     li:nth-child(2){
       margin-left: auto;
+    }
+    li.active::after {
+      content: " ";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -48px;
+      border-bottom: 8px solid #f4c116;
     }
   }
 }
