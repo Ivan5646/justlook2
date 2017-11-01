@@ -2,6 +2,11 @@ dimensions
 934px centering
 
 33 43
++43
+
+address 16 22
+phone 21 22
+mailbox 23 16
 
 
 heager gradient

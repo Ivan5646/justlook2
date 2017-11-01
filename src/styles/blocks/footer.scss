@@ -7,9 +7,24 @@
     height: 84px;
     li {
       list-style-type: none;
-      margin-right: auto;
+      height: 22px;
       a {
         color: #ffffff;
+      }
+    }
+    .footer__address {
+      a {
+        position: relative;
+        padding-left: 26px;
+        &::before {
+          content: "";
+          width: 16px;
+          height: 22px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-image: url("../../img/address.png"); 
+        }
       }
     }
   }
