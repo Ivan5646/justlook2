@@ -74,6 +74,21 @@
       position: relative;
       top: 50%;
       transform: translateY(-50%);
+
+      .main__details-img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -43px;
+        width: 62px; //?
+        height: 74px;
+        border: 3px solid #f4c116;
+        border-radius: 50%;
+        background-image: url("../../img/details.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: 20%;
+      }
       h4 {
         width: 82%;
       }

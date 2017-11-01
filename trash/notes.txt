@@ -1,6 +1,8 @@
 dimensions
 934px centering
 
+33 43
+
 
 heager gradient
   background: -moz-radial-gradient(center, ellipse cover, rgba(105,105,105,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
